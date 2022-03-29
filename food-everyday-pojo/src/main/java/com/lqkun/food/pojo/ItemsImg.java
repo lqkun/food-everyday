@@ -33,7 +33,7 @@ public class ItemsImg {
      * 是否主图;是否主图，1：是，0：否
      */
     @Column(name = "is_main")
-    private Byte isMain;
+    private Integer isMain;
 
     /**
      * 创建时间
@@ -124,7 +124,7 @@ public class ItemsImg {
      *
      * @return is_main - 是否主图;是否主图，1：是，0：否
      */
-    public Byte getIsMain() {
+    public Integer getIsMain() {
         return isMain;
     }
 
@@ -133,7 +133,7 @@ public class ItemsImg {
      *
      * @param isMain 是否主图;是否主图，1：是，0：否
      */
-    public void setIsMain(Byte isMain) {
+    public void setIsMain(Integer isMain) {
         this.isMain = isMain;
     }
 

@@ -47,7 +47,7 @@ public class ItemsComments {
      * 评价等级;1：好评 2：中评 3：差评
      */
     @Column(name = "comment_level")
-    private Byte commentLevel;
+    private Integer commentLevel;
 
     /**
      * 评价内容
@@ -179,7 +179,7 @@ public class ItemsComments {
      *
      * @return comment_level - 评价等级;1：好评 2：中评 3：差评
      */
-    public Byte getCommentLevel() {
+    public Integer getCommentLevel() {
         return commentLevel;
     }
 
@@ -188,7 +188,7 @@ public class ItemsComments {
      *
      * @param commentLevel 评价等级;1：好评 2：中评 3：差评
      */
-    public void setCommentLevel(Byte commentLevel) {
+    public void setCommentLevel(Integer commentLevel) {
         this.commentLevel = commentLevel;
     }
 
